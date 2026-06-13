@@ -38,9 +38,9 @@ spec:
         'y': 200
 
   edges:
-    - source: manual-trigger
-      target: create-droplet
+    - sourceId: manual-trigger
+      targetId: create-droplet
       channel: default
-    - source: create-droplet
-      target: delete-droplet
+    - sourceId: create-droplet
+      targetId: delete-droplet
       channel: default
