@@ -20,7 +20,7 @@ spec:
       component: digitalocean.createDroplet
       configuration:
         name: '{{ install_params.droplet_name }}'
-        region: nyc1
+        region: '{{ install_params.region }}'
         size: s-1vcpu-1gb
         image: ubuntu-24-04-x64
       position:

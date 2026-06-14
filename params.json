@@ -7,6 +7,16 @@
       "placeholder": "my-droplet",
       "description": "Name for the DigitalOcean droplet",
       "required": true
+    },
+    {
+      "name": "region",
+      "label": "Region",
+      "type": "integration-resource",
+      "integration": "digitalocean",
+      "resourceType": "region",
+      "description": "DigitalOcean region for the droplet",
+      "required": true,
+      "default": "nyc1"
     }
   ]
 }
